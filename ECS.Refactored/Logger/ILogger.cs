@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ECS.Refactored.Logger
 {
-    interface ILogger
+    public interface ILogger
     {
+       void WriteLogLine(string text);
     }
 }

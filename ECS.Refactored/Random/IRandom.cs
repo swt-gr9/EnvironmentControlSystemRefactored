@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ECS.Refactored.Random
 {
-    class IRandom
+    public interface IRandom
     {
+        int NextRandomNumber(int lower, int higher);
     }
 }

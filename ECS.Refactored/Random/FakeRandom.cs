@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ECS.Refactored.Random
 {
-    class FakeRandom
+    public class FakeRandom : IRandom
     {
+        public int NextRandomNumber(int lower, int higher)
+        {
+            return 10;
+        }
     }
 }

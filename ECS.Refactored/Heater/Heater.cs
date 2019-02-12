@@ -1,19 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ECS.Refactored.Logger;
 
 namespace ECS.Refactored.Heater
 {
     public class Heater : IHeater
     {
+        private readonly ILogger _logger;
+
+        public Heater(ILogger logger)
+        {
+            _logger = logger;
+        }
         public void TurnOn()
         {
-            System.Console.WriteLine("Heater is on");
+            _logger.WriteLogLine("Heater is on");
         }
 
         public void TurnOff()
         {
-            System.Console.WriteLine("Heater is off");
+            _logger.WriteLogLine("Heater is off");
         }
 
     }

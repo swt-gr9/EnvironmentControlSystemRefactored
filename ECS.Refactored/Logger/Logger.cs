@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ECS.Refactored.Logger
 {
-    class Logger
+    public class Logger : ILogger
     {
+        public void WriteLogLine(string text)
+        {
+            Console.WriteLine(text);
+        }
     }
 }
