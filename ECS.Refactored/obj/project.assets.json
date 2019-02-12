@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\test\\.nuget\\packages\\": {},
+    "C:\\Users\\troel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\test\\OneDrive - Aarhus universitet\\4. semester\\Software T\\Opgaver\\EnvironmentControlSystemRefactored\\ECS.Refactored\\ECS.Refactored.csproj",
+      "projectUniqueName": "C:\\Users\\troel\\OneDrive - Aarhus universitet\\Skole\\Uni\\4. semester\\SWT\\EnvironmentControlSystemRefactored\\ECS.Refactored\\ECS.Refactored.csproj",
       "projectName": "ECS.Refactored",
-      "projectPath": "C:\\Users\\test\\OneDrive - Aarhus universitet\\4. semester\\Software T\\Opgaver\\EnvironmentControlSystemRefactored\\ECS.Refactored\\ECS.Refactored.csproj",
-      "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\test\\OneDrive - Aarhus universitet\\4. semester\\Software T\\Opgaver\\EnvironmentControlSystemRefactored\\ECS.Refactored\\obj\\",
+      "projectPath": "C:\\Users\\troel\\OneDrive - Aarhus universitet\\Skole\\Uni\\4. semester\\SWT\\EnvironmentControlSystemRefactored\\ECS.Refactored\\ECS.Refactored.csproj",
+      "packagesPath": "C:\\Users\\troel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\troel\\OneDrive - Aarhus universitet\\Skole\\Uni\\4. semester\\SWT\\EnvironmentControlSystemRefactored\\ECS.Refactored\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\troel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
