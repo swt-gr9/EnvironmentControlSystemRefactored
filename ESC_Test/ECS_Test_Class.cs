@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit;
 using NUnit.Framework;
+using ECS.Refactored;
 
-namespace ESC_Test
+namespace ECS_Test
 {
     [TestFixture]
-    class ESC_Test_Class
+    class ECS_Test_Class
     {
-        private ESC_Test_Class uut;
+        private ECS uut;
         [SetUp]
         void Setup()
         {

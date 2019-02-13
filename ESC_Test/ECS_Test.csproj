@@ -45,7 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ESC_Test_Class.cs" />
+    <Compile Include="ECS_Test_Class.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ECS.Refactored\ECS.Refactored.csproj">
