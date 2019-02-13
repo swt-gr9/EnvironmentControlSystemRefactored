@@ -6,7 +6,7 @@ using ECS.Refactored.TempSensor;
 
 namespace ECS.Refactored.ECS
 {
-    class ECS
+    public class ECS
     {
         public int _threshold { get; set; }
         private readonly ITempSensor _tempSensor;
