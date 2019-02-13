@@ -1,23 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using ECS.Refactored.Random;
+
 
 namespace ECS.Refactored.TempSensor
 {
     public class FakeTempSensor : ITempSensor
     {
-        private IRandom _gen;
+        public int Temp { get; set; }
 
-        public FakeTempSensor(IRandom gen)
+        public FakeTempSensor()
         {
-            _gen = gen;
+            Temp = 0;
         }
 
 
         public int GetTemp()
         {
-            return _gen.NextRandomNumber(-5, 45);
+            return Temp;
         }
     }
 }

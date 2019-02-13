@@ -7,21 +7,23 @@ namespace ECS.Refactored.Heater
 {
     public class FakeHeater : IHeater
     {
-        private readonly ILogger _logger;
+        public int TurnOnCalledTimes { get; set; }
+        public int TurnOffCalledTimes { get; set; }
 
-        public FakeHeater(ILogger logger)
+        public FakeHeater()
         {
-            _logger = logger;
+            TurnOnCalledTimes = 0;
+            TurnOffCalledTimes = 0;
         }
 
         public void TurnOn()
         {
-            /*TODO:Hvad er planen her?*/
+            TurnOnCalledTimes++;
         }
 
         public void TurnOff()
         {
-            /*TODO:Hvad er planen her?*/
+            TurnOffCalledTimes++;
         }
     }
 }
