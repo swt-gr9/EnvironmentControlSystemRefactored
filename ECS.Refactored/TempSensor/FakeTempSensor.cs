@@ -4,8 +4,8 @@ using System.Text;
 
 namespace ECS.Refactored.TempSensor
 {
-    public interface ITempSensor
+    class FakeTempSensor
     {
-        int GetTemp();
+        /*Skriv Fake kode her*/
     }
 }

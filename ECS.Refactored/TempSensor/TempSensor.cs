@@ -8,9 +8,9 @@ namespace ECS.Refactored.TempSensor
     {
         private Random gen = new Random();
 
-        public void GetTemp()
+        public int GetTemp()
         {
-
+            return gen.Next(-5, 45);
         }
     }
 }
